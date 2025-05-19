@@ -49,7 +49,7 @@ A full-stack intelligent fitness tracking system that leverages **AI and microse
 
 ## 🌐 Live Demo
 
-[Live App Link](#) *(Add your deployed link here if available)*
+[Live App Link](#) *(Not Available)*
 
 ---
 

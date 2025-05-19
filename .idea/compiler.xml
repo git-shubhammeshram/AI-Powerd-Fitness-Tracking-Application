@@ -8,15 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="EurekaServer" />
-        <module name="Configuration-Server" />
         <module name="AI-Service" />
+        <module name="Configuration-Server" />
+        <module name="Gateway" />
       </profile>
-      <profile name="Annotation profile for ActivityService" enabled="true">
+      <profile name="Annotation profile for UserService" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
         <module name="UserService" />
@@ -30,6 +30,7 @@
       <module name="ActivityService" options="-parameters" />
       <module name="Configuration-Server" options="-parameters" />
       <module name="EurekaServer" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
       <module name="UserService" options="-parameters" />
     </option>
   </component>
